@@ -22,9 +22,9 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_leftmotor" id="31" inline="true">
-                    <value name="MOVLEFT">
-                      <block type="math_number" id="85">
+                  <block type="movement_rightmotor" id="113" inline="true">
+                    <value name="MOVRIGHT">
+                      <block type="math_number" id="138">
                         <field name="NUM">50</field>
                       </block>
                     </value>
@@ -43,9 +43,9 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_rightmotor" id="113" inline="true">
-                                <value name="MOVRIGHT">
-                                  <block type="math_number" id="138">
+                              <block type="movement_leftmotor" id="31" inline="true">
+                                <value name="MOVLEFT">
+                                  <block type="math_number" id="85">
                                     <field name="NUM">50</field>
                                   </block>
                                 </value>
